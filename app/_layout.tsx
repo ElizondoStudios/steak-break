@@ -14,6 +14,8 @@ export default function RootLayout() {
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    GrahmRough: require('../assets/fonts/GrahmRough.otf'),
+    ChauPhilomene: require('../assets/fonts/ChauPhilomeneOne-Regular.ttf'),
   });
 
   useEffect(() => {

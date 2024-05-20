@@ -1,0 +1,182 @@
+[
+    {
+        "categoria": "Hamburguesas",
+        "detalles": "incluye papas",
+        "items": [
+            {
+                "id": 1,
+                "nombre": "Hamburguesa clásica",
+                "precio": 60,
+                "dec_nutrimental":{
+                    "calorias": 300,
+                    "grasas": 10,
+                    "carbohidratos": 20,
+                    "proteinas": 15
+                },
+                "peso": "400g"
+            },
+            {
+                "id": 2,
+                "nombre": "Hamburgruesona",
+                "precio": 80,
+                "dec_nutrimental":{
+                    "calorias": 500,
+                    "grasas": 20,
+                    "carbohidratos": 30,
+                    "proteinas": 25
+                },
+                "peso": "500g"
+            }
+        ]
+    },
+    {
+        "categoria": "Platos",
+        "detalles": "",
+        "items": [
+            {
+                "id": 3,
+                "nombre": "Con arroz y res",
+                "precio": 70,
+                "dec_nutrimental":{
+                    "calorias": 500,
+                    "grasas": 20,
+                    "carbohidratos": 30,
+                    "proteinas": 25
+                },
+                "peso": "500g"
+            },
+            {
+                "id": 4,
+                "nombre": "Con arroz y pollo",
+                "precio": 70,
+                "dec_nutrimental":{
+                    "calorias": 500,
+                    "grasas": 20,
+                    "carbohidratos": 30,
+                    "proteinas": 25
+                },
+                "peso": "500g"
+            },
+            {
+                "id": 5,
+                "nombre": "Con papas y res",
+                "precio": 74,
+                "dec_nutrimental":{
+                    "calorias": 500,
+                    "grasas": 20,
+                    "carbohidratos": 30,
+                    "proteinas": 25
+                },
+                "peso": "510g"
+            },
+            {
+                "id": 6,
+                "nombre": "Con papas y pollo",
+                "precio": 74,
+                "dec_nutrimental":{
+                    "calorias": 500,
+                    "grasas": 20,
+                    "carbohidratos": 30,
+                    "proteinas": 25
+                },
+                "peso": "510g"
+            }
+        ]
+    },
+    {
+        "categoria": "Burros",
+        "detalles": "",
+        "items": [
+            {
+                "id": 7,
+                "nombre": "Burrito",
+                "precio": 40,
+                "dec_nutrimental":{
+                    "calorias": 300,
+                    "grasas": 10,
+                    "carbohidratos": 20,
+                    "proteinas": 15
+                },
+                "peso": "300g"
+            },
+            {
+                "id": 8,
+                "nombre": "Burro XG",
+                "precio": 60,
+                "dec_nutrimental":{
+                    "calorias": 500,
+                    "grasas": 20,
+                    "carbohidratos": 30,
+                    "proteinas": 25
+                },
+                "peso": "500g"
+            }
+        ]
+    },
+    {
+        "categoria": "Especialidad",
+        "detalles": "",
+        "items": [
+            {
+                "id": 9,
+                "nombre": "Cheese steak",
+                "precio": 50,
+                "dec_nutrimental":{
+                    "calorias": 500,
+                    "grasas": 20,
+                    "carbohidratos": 30,
+                    "proteinas": 25
+                },
+                "peso": "350g"
+            }
+        ]
+    },
+    {
+        "categoria": "Extras",
+        "detalles": "",
+        "items": [
+            {
+                "id": 10,
+                "nombre": "Queso",
+                "precio": 15,
+                "dec_nutrimental":{
+                    "calorias": 500,
+                    "grasas": 20,
+                    "carbohidratos": 30,
+                    "proteinas": 25
+                },
+                "peso": "80g"
+            },
+            {
+                "id": 11,
+                "nombre": "Side de papas",
+                "precio": 15,
+                "dec_nutrimental":{
+                    "calorias": 500,
+                    "grasas": 20,
+                    "carbohidratos": 30,
+                    "proteinas": 25
+                },
+                "peso": "150g"
+            }
+        ]
+    },
+    {
+        "categoria": "Bebidas",
+        "detalles": "",
+        "items": [
+            {
+                "id": 12,
+                "nombre": "Agua (500ml)",
+                "precio": 18,
+                "dec_nutrimental":{
+                    "calorias": 500,
+                    "grasas": 20,
+                    "carbohidratos": 30,
+                    "proteinas": 25
+                },
+                "peso": "500ml"
+            }
+        ]
+    }
+]
