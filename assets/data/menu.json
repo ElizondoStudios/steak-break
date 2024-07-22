@@ -8,10 +8,10 @@
                 "nombre": "Hamburguesa clásica",
                 "precio": 60,
                 "dec_nutrimental":{
-                    "calorias": 300,
-                    "grasas": 10,
-                    "carbohidratos": 20,
-                    "proteinas": 15
+                    "calorias": 820,
+                    "grasas": 66,
+                    "carbohidratos": 60,
+                    "proteinas": 82
                 },
                 "peso": "400g"
             },
@@ -20,10 +20,10 @@
                 "nombre": "Hamburgruesona",
                 "precio": 80,
                 "dec_nutrimental":{
-                    "calorias": 500,
-                    "grasas": 20,
-                    "carbohidratos": 30,
-                    "proteinas": 25
+                    "calorias": 1250,
+                    "grasas": 76,
+                    "carbohidratos": 70,
+                    "proteinas": 106
                 },
                 "peso": "500g"
             }
@@ -38,10 +38,10 @@
                 "nombre": "Con arroz y res",
                 "precio": 70,
                 "dec_nutrimental":{
-                    "calorias": 500,
-                    "grasas": 20,
-                    "carbohidratos": 30,
-                    "proteinas": 25
+                    "calorias": 780,
+                    "grasas": 35,
+                    "carbohidratos": 85,
+                    "proteinas": 75
                 },
                 "peso": "500g"
             },
@@ -50,10 +50,10 @@
                 "nombre": "Con arroz y pollo",
                 "precio": 70,
                 "dec_nutrimental":{
-                    "calorias": 500,
-                    "grasas": 20,
-                    "carbohidratos": 30,
-                    "proteinas": 25
+                    "calorias": 730,
+                    "grasas": 25,
+                    "carbohidratos": 85,
+                    "proteinas": 75
                 },
                 "peso": "500g"
             },
@@ -62,10 +62,10 @@
                 "nombre": "Con papas y res",
                 "precio": 74,
                 "dec_nutrimental":{
-                    "calorias": 500,
-                    "grasas": 20,
-                    "carbohidratos": 30,
-                    "proteinas": 25
+                    "calorias": 850,
+                    "grasas": 60,
+                    "carbohidratos": 90,
+                    "proteinas": 75
                 },
                 "peso": "510g"
             },
@@ -74,10 +74,10 @@
                 "nombre": "Con papas y pollo",
                 "precio": 74,
                 "dec_nutrimental":{
-                    "calorias": 500,
-                    "grasas": 20,
-                    "carbohidratos": 30,
-                    "proteinas": 25
+                    "calorias": 790,
+                    "grasas": 40,
+                    "carbohidratos": 90,
+                    "proteinas": 75
                 },
                 "peso": "510g"
             }
@@ -92,10 +92,10 @@
                 "nombre": "Burrito",
                 "precio": 40,
                 "dec_nutrimental":{
-                    "calorias": 300,
-                    "grasas": 10,
-                    "carbohidratos": 20,
-                    "proteinas": 15
+                    "calorias": 600,
+                    "grasas": 25,
+                    "carbohidratos": 84,
+                    "proteinas": 52
                 },
                 "peso": "300g"
             },
@@ -104,10 +104,10 @@
                 "nombre": "Burro XG",
                 "precio": 60,
                 "dec_nutrimental":{
-                    "calorias": 500,
-                    "grasas": 20,
-                    "carbohidratos": 30,
-                    "proteinas": 25
+                    "calorias": 1000,
+                    "grasas": 40,
+                    "carbohidratos": 120,
+                    "proteinas": 86
                 },
                 "peso": "500g"
             }
@@ -122,10 +122,10 @@
                 "nombre": "Cheese steak",
                 "precio": 50,
                 "dec_nutrimental":{
-                    "calorias": 500,
-                    "grasas": 20,
-                    "carbohidratos": 30,
-                    "proteinas": 25
+                    "calorias": 800,
+                    "grasas": 44,
+                    "carbohidratos": 55,
+                    "proteinas": 80
                 },
                 "peso": "350g"
             }
@@ -140,22 +140,22 @@
                 "nombre": "Queso",
                 "precio": 15,
                 "dec_nutrimental":{
-                    "calorias": 500,
-                    "grasas": 20,
-                    "carbohidratos": 30,
-                    "proteinas": 25
+                    "calorias": 110,
+                    "grasas": 10,
+                    "carbohidratos": 1,
+                    "proteinas": 12
                 },
-                "peso": "80g"
+                "peso": "40g"
             },
             {
                 "id": 11,
                 "nombre": "Side de papas",
                 "precio": 15,
                 "dec_nutrimental":{
-                    "calorias": 500,
-                    "grasas": 20,
-                    "carbohidratos": 30,
-                    "proteinas": 25
+                    "calorias": 600,
+                    "grasas": 40,
+                    "carbohidratos": 70,
+                    "proteinas": 5
                 },
                 "peso": "150g"
             }
@@ -170,10 +170,10 @@
                 "nombre": "Agua (500ml)",
                 "precio": 18,
                 "dec_nutrimental":{
-                    "calorias": 500,
-                    "grasas": 20,
-                    "carbohidratos": 30,
-                    "proteinas": 25
+                    "calorias": 180,
+                    "grasas": 12.5,
+                    "carbohidratos": 15,
+                    "proteinas": 0
                 },
                 "peso": "500ml"
             }

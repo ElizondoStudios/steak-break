@@ -74,20 +74,28 @@ export default function HomeScreen() {
       }
       {
         item.items.map((product: any) =>(
-          <View style={styles.product} key={product.id}>
-            <View style={{width: '85%', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between'}}>
-              <Text style={{fontFamily: 'ChauPhilomene', color: '#fff', fontSize: 27}}>{product.nombre}</Text>
-              <Text style={{fontFamily: 'ChauPhilomene', color: '#ffac00', fontSize: 27}}>$ {product.precio}</Text>
+          <>
+            <View style={styles.product} key={product.id}>
+              <View style={{width: '85%', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between'}}>
+                <Text style={{fontFamily: 'ChauPhilomene', color: '#fff', fontSize: 27}}>{product.nombre}</Text>
+                <Text style={{fontFamily: 'ChauPhilomene', color: '#ffac00', fontSize: 27}}>$ {product.precio}</Text>
+              </View>
+              <TouchableOpacity
+                style={{alignItems: 'center', justifyContent: 'center'}} 
+                onPress={() => {
+                  agregarAOrden(product)
+                }}
+              >
+                <Ionicons name={'bag-add'} size={32} color={'#ffac00'}/>
+              </TouchableOpacity>
             </View>
-            <TouchableOpacity
-              style={{alignItems: 'center', justifyContent: 'center'}} 
-              onPress={() => {
-                agregarAOrden(product)
-              }}
-            >
-              <Ionicons name={'bag-add'} size={32} color={'#ffac00'}/>
-            </TouchableOpacity>
-          </View>
+            <View style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'space-evenly', width: '85%'}}>
+                <Text style={{fontFamily: 'ChauPhilomene', color: '#888', fontSize: 12}}>{product.dec_nutrimental.calorias}kcal</Text>
+                <Text style={{fontFamily: 'ChauPhilomene', color: '#888', fontSize: 12}}>prot: {product.dec_nutrimental.proteinas}g</Text>
+                <Text style={{fontFamily: 'ChauPhilomene', color: '#888', fontSize: 12}}>gras: {product.dec_nutrimental.grasas}g</Text>
+                <Text style={{fontFamily: 'ChauPhilomene', color: '#888', fontSize: 12}}>carb: {product.dec_nutrimental.carbohidratos}g</Text>
+            </View>
+          </>
         ))
       }
     </View>
